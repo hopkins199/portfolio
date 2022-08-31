@@ -180,8 +180,6 @@ const handleClick = (questionId, chosenAnswer) => {
         unansweredQuestions.splice(itemToRemove, 1)
     }
 
-    console.log(unansweredQuestions)
-
 
     disableQuestionBlock(questionId, chosenAnswer)
     const lowestQuestionId = Math.min(...unansweredQuestions)
